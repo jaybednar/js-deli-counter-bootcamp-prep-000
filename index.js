@@ -21,6 +21,6 @@ function currentLine (katzDeliLine) {
     for (var i = 1; i < katzDeliLine.length; i++) {
       katzDeliLine[i] = `${i}. ${katzDeliLine[i]}`
     }
-    return `Currently serving ${katzDeliLine.join(', ')}.`;
+    return `The line is currentyly: ${katzDeliLine.join(', ')}.`;
   }
 }
